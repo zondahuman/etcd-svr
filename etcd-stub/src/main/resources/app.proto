@@ -1,0 +1,7 @@
+
+
+
+
+etcd_conf_content="
+name: ETCD-SINGLETON\ndata-dir: \""$etcd_data"\"\nlisten-client-urls: \""http://"$current_ip":2379"\"\nadvertise-client-urls: \""http://"$current_ip":2379"\"\nlisten-peer-urls: \""http://"$current_ip":2380"\"\ninitial_advertise_peer_urls:  \""http://"$current_ip":2380"\"
+"

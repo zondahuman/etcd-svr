@@ -31,7 +31,6 @@ mkdir etcd.conf
 
 
 # etcd.conf1
-etcd:
 name: ETCD-SINGLETON
 data-dir: "./data"
 listen-client-urls: "http://172.16.2.132:2379"
